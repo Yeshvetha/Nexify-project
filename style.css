@@ -1,0 +1,38 @@
+.custom {
+    background-color: black ;
+    position:sticky ;
+    top:0px !important;
+}
+.custom .navbar-brand,.custom .nav-link{
+    color:white !important;
+}
+.custom .nav-link:hover{
+    color:grey !important;
+}
+.navbar-toggler-icon{
+    background-color: white !important;
+}
+.bg{
+    background-image: url(4.jpg);
+    background-attachment:fixed !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+    height: 100vh !important;
+    width: 100% !important;
+    position: relative !important;
+}
+h1{
+    color:#4F4F4F;
+    font-family: cursive;
+    text-align:center;
+    margin:50px;
+}
+.sub{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:#7A7A7A;  
+    text-align:center
+}
+html{
+   scroll-behavior:smooth
+}
